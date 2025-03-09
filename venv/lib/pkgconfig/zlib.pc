@@ -1,0 +1,13 @@
+prefix=/Users/nehabudhane/Documents/AgenticAI/AgnoWorkSpace/MyAgnoWorkSpace/venv
+exec_prefix=/Users/nehabudhane/Documents/AgenticAI/AgnoWorkSpace/MyAgnoWorkSpace/venv
+libdir=/Users/nehabudhane/Documents/AgenticAI/AgnoWorkSpace/MyAgnoWorkSpace/venv/lib
+sharedlibdir=/Users/nehabudhane/Documents/AgenticAI/AgnoWorkSpace/MyAgnoWorkSpace/venv/lib
+includedir=/Users/nehabudhane/Documents/AgenticAI/AgnoWorkSpace/MyAgnoWorkSpace/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
